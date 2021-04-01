@@ -1,0 +1,80 @@
+.task{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    display: inline-flex;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 200px;
+    justify-content: space-between;
+    background-color: yellow;
+}
+body{
+    background-color: rgb(224 194 138);
+    
+}
+
+.heading{
+    font-family: 'Kufam', cursive;
+}
+
+#wrapper{ 
+    width: 200px;
+  height: 200px;
+  margin: 200px auto;
+}
+
+#task-list{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    padding:0;
+    
+}
+
+#task-Btn{
+    display: block;
+    margin:20px auto;
+    width: 80px;
+    border-radius: 15px;
+    font-weight: 700;
+    color: rgb(209,209,217);
+    text-decoration: none;
+    text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+    padding: .5em 1em;
+    outline: none;
+    border-radius: 3px;
+    background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+    box-shadow:
+     0 1px rgba(255,255,255,.2) inset,
+     0 3px 5px rgba(0,1,6,.5),
+     0 0 1px 1px rgba(0,1,6,.2);
+    transition: .2s ease-in-out;
+}
+#task-hidt{
+    font-family: 'Playfair Display', serif;
+    border-radius: 5px;
+    background-color: rgb(224 194 138);
+}
+.delete-btn{
+    display: inline;
+    margin-left: 50px;
+    cursor: pointer;
+    width: 80px;
+    border-radius: 15px;
+    font-weight: 700;
+    color: rgb(209,209,217);
+    text-decoration: none;
+    text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+    padding: .5em 1em;
+    outline: none;
+    border-radius: 3px;
+    background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+    box-shadow:
+     0 1px rgba(255,255,255,.2) inset,
+     0 3px 5px rgba(0,1,6,.5),
+     0 0 1px 1px rgba(0,1,6,.2);
+    transition: .2s ease-in-out;
+}
+.done{
+    background-color: rgb(62 215 18);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+    <script src="script.js" async></script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <h1 class = 'heading'>To do list</h1>
+        <ul id="task-list"></ul>
+        <form id="new-task-form">
+            <input type="text" id="task-input" />
+            <button id="task-Btn">Add</button>
+        </form>
+      
+    </div>
+
+    <script type="text/template" id="task-to-do">
+        <li class ="task ">{{Task}}
+            <button class="delete-btn" >Delete</button>
+        </li>
+       
+    </script>
+  </body>
+
+</html>

@@ -1,0 +1,42 @@
+.task-li{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(224 194 138);
+    
+}
+
+#wrapper{ 
+    width: 200px;
+  height: 200px;
+  margin: 200px auto;
+}
+
+.hide{
+    display: none;
+}
+
+#task-List{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    padding:0;
+    color: slategray;
+}
+
+#task-Btn{
+    display: block;
+    margin:20px auto;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 60px;
+    font-weight:bold;
+    border-color: slategray;
+    color: slategray;
+    background-color: rgb(224 194 138);
+}
+#task-Input{
+    font-family: 'Playfair Display', serif;
+    border-radius: 5px;
+    background-color: rgb(224 194 138);
+}

@@ -1,0 +1,1 @@
+document.body.tnnerHTML = `<h1>HEllo form Java</h1>`

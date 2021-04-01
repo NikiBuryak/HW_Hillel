@@ -1,0 +1,35 @@
+body{
+    background-color: grey;
+}
+.header{
+    margin: 0 auto;
+}
+.header-btn{
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+}
+.sticks-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sticker-wrap{
+    margin: 20px;
+    background-color: white;
+}
+#sticker-text{
+    resize: none;
+    border: none;
+}
+#sticker-text:focus{
+    outline: none;
+}
+.stick-header{
+    text-align: right;
+    margin: 5px;
+    font-size: 25px;
+}
+.delete{
+    cursor: pointer;
+}

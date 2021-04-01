@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" defer></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" defer></script>
+    <script src="Http.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="contacts_wrap">
+        <div class="info">Имя</div>
+        <div class="info">Фамилия</div>
+        <div class="info number">Номер</div>
+    </div>
+    <div id="all-contacts"></div>
+    <div id="modal-dialog">
+        <form id="inputs">
+            <div>
+                <input type="text" class="cont-input contact-id"id="task-id" name="id"/>
+
+                <div>
+                    <label for="task-name">Name</label>
+                    <input type="text" class="cont-input" id="task-name" name="name"/>
+                </div>
+
+                <div>
+                    <label for="task-surname">Surname</label>
+                    <input type="text" class="cont-input" id="task-surname" name="surname"/>
+
+                </div>
+
+                <div>
+                    <label for="task-numb">Number</label>
+                    <input type="text" class="cont-input" id="task-numb" name="phone"/>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script type="text/template" id="info-template">
+        <div class="contacts_wrap new-contact" id = {{id}}>
+            <div class="info input-template">{{Имя}}</div>
+            <div class="info input-template">{{Фамилия}}</div>
+            <div class="info input-template">{{Номер}}</div>
+            <div class="edit-btn">Edit</div>
+            <div class="delete-btn">X</div>
+        </div>
+    </script>
+    <button id="open-modal-btn">Add</button>
+    
+</body>
+</html>

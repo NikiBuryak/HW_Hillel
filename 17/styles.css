@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+#wrapper{
+    margin: 15% auto;
+    width: 400px;
+    height: 200px;
+}
+.info-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin-bottom: 30px;
+}
+.info-block{
+    width: 30px;
+    height: 30px;
+}
+#find-user-form{
+    display: grid;
+    width: 300px;
+}

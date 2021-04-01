@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <script type="text/template" id="info-template">
+            <div class="info-wrapper">
+                <div class="info-block"><img src="{{avatar}}" alt="avatar" width = "50" height = "50"></div>
+                <div class="info-block">{{repos}} Репозиториев</div>
+                <div class="info-block">{{followers}} Фоловеров</div>
+                <div class="info-block">{{following}} Наблюдаемых</div>
+            </div>
+        </script>
+        <form id="find-user-form">
+            <input type="text" id="user-input">
+            <button id="button">Find</button>
+        </form>
+    </div>
+</body>
+</html>
